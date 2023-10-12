@@ -1,0 +1,44 @@
+.container {
+    background-color: #5D1C1C;
+    width: 100%;
+    height: 100%;
+}
+
+.con {
+    background-image: url('TUPCback.png');
+    opacity: 120%;
+    background-size: cover;
+    height: 986px;
+    width: auto;
+    align-content: center;
+}
+
+.top {
+    background-color: #5D1C1C;
+    height:96px;
+    width: auto;
+}
+
+.con h4 {
+    font-size: 34px;
+    color: white;
+}
+
+.con span {
+    color: red;
+}
+
+.con img {
+    margin-top: 300px;
+    size: 150px;
+    margin-left: 15%;
+}
+
+.t img{
+    margin-left:50%;
+    margin-top: 50px;
+}
+
+.con h4 {
+    margin-top: 100px;
+}

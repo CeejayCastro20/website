@@ -1,0 +1,14 @@
+.container {
+    background-color: #000000;
+    border:10px solid #000000;
+    align-items: center;
+    height: 34px;
+    width: auto;
+}
+
+.container h1 {
+    color: white;
+    font-size: 32px;
+    margin-left: 60px;
+    margin-top: -10px;
+}

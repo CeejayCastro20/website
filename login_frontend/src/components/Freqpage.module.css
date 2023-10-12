@@ -1,0 +1,51 @@
+.top {
+    background-color: #5D1C1C;
+    height:96px;
+    width: auto;
+    margin-top: -20px;
+}
+
+.con {
+    background-image: url('../images/TUPCcover.png');
+    opacity: 120%;
+    background-size: cover;
+    height: 1050px;
+    width: 100%;
+    align-content: center;
+    margin-top: -50px;
+}
+
+.con h1{
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.con h2 {
+    color: #FF0000;
+    font-size: 36px;
+    margin-left: 15%;
+}
+
+.con h3{
+    color: white;
+    font-size: 36px;
+    margin-left: 15%;
+    margin-top: -10px;
+}
+
+.con h4{
+    color: white;
+    font-size: 36px;
+    margin-left: 20%;
+}
+
+.bot Button{
+    color: black;
+    background-color: white;
+    width: 164px;
+    height: 41px;
+    font-size: 24px;
+    float: right;
+    justify-content: space-between;
+    margin-right: 20px;
+}

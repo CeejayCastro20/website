@@ -1,0 +1,35 @@
+.container {
+    background-color: #ffffff;
+    align-items: stretch;
+    border:200px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    border-width: 0ch;
+    list-style: none;
+}
+
+.container ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    float: right;
+    color: black;
+}
+
+.container Button {
+    color: black;
+    font-size: 25px;
+    font-family: Play, sans-serif;
+}
+
+.main {
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.hover {
+    display: flex;
+    margin-left: 120%;
+}
