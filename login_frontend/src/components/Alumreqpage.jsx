@@ -2,7 +2,7 @@ import styles from './SAreqpage.module.css';
 import Button from './Button.jsx';
 import { Link } from 'react-router-dom';
 
-const SAreqpage = () => {
+const Alumreqpage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.top}></div>
@@ -21,7 +21,7 @@ const SAreqpage = () => {
                 <h2>Note:</h2>
                 <h3>*All replacements will be charged 150 pesos ID fee to be paid at the Cashier's Office.</h3>
                 <div className={styles.bot}>
-                    <Link to="/Student-Form"><Button variant ='secondary'>Proceed</Button></Link>
+                    <Link to="/Alumni-Form"><Button variant ='secondary'>Proceed</Button></Link>
                     <Link to="/"><Button variant ='secondary'>Cancel</Button></Link>
                 </div>
             </div>
@@ -29,4 +29,4 @@ const SAreqpage = () => {
     );
 };
 
-export default SAreqpage;
+export default Alumreqpage;

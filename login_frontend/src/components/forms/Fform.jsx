@@ -49,20 +49,8 @@ const Fform = () => {
                 </div>
                 <form>
                     <div className={styles.spread}>
-                        <p>Email:</p>
-                        <input type='em' onChange={e => setRegisterEmail(e.target.value)} placeholder=''></input>
-                    </div>
-                    <div className={styles.spread}>
                         <p>TUP ID number:</p>
                         <input type='id' onChange={e => setRegisteridnumber(e.target.value)} placeholder=''></input>
-                    </div>
-                    <div className={styles.spread1}>
-                        <p>Type of Request:</p>
-                        <select name="req" id="req">
-                            <option value="n">New</option>
-                            <option value="l">Loss</option>
-                            <option value="c">Change</option>
-                        </select>
                     </div>
                     <div className={styles.spread}>
                         <p>Last Name:</p>
@@ -75,24 +63,6 @@ const Fform = () => {
                     <div className={styles.spread}>
                         <p>Middle Initial:</p>
                         <input type='Midi' onChange={e => setRegisterMidinitial(e.target.value)} placeholder=''></input>
-                    </div>
-                    <div className={styles.spread}>
-                        <p>Contact No.:</p>
-                        <input type='cn' onChange={e => setRegisterContnum(e.target.value)} placeholder=''></input>
-                    </div>
-
-
-                    <div className={styles.spread2}>
-                        <p>Upload Affidavit of Loss Here:</p>
-                        <form action="">
-                            <input type="file" id="uploss" name="fileloss"></input>
-                        </form>
-                    </div>
-                    <div className={styles.spread2}>
-                        <p>Upload Receipt Here:</p>
-                        <form action="">
-                            <input type="file" id="uprec" name="filerec"></input>
-                        </form> 
                     </div>
 
                     <div className={styles.bot}>

@@ -10,7 +10,7 @@ const Freqpage = () => {
                 <center><h1><br></br>TAKE TIME TO READ THIS BEFORE PROCEEDING !</h1></center>
                 <h3>Fill out all the necessary information for requesting an ID in this form.</h3>
                 <h2>Reminder:</h2>
-                <h3>a. For Loss ID kindly prepare the following:</h3>
+                <h3>a. For lost ID kindly prepare the following:</h3>
                 <h4>1. Affidavit of Loss
                     <br></br>2. Receipt from cashier
                 </h4>
@@ -19,7 +19,7 @@ const Freqpage = () => {
                     <br></br>2. The old ID (to be surrendered to UITC)
                 </h4>
                 <h2>Note:</h2>
-                <h3>*All replacement will charged 150 pesos ID fee to be paid at the Cashier's Office.</h3>
+                <h3>*All replacements will be charged 150 pesos ID fee to be paid at the Cashier's Office.</h3>
                 <div className={styles.bot}>
                     <Link to="/Faculty-Form"><Button variant ='secondary'>Proceed</Button></Link>
                     <Link to="/"><Button variant ='secondary'>Cancel</Button></Link>

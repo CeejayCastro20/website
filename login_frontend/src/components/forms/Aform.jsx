@@ -5,7 +5,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import Back from './back.png';
 
-const SAform = () => {
+const Aform = () => {
     const [ registerEmail, setRegisterEmail ] = useState('');
     const [ registeridnumber, setRegisteridnumber ] = useState('');
     //const [ registertor, setRegistertor ] = useState('');
@@ -23,17 +23,17 @@ const SAform = () => {
         axios({
             method: "post",
             data: {
-                Email: registerEmail,
+                //Email: registerEmail,
                 Idnumber: registeridnumber,
                 //Tor: registertor,
                 Lname: registerLname,
                 Fname: registerFname,
                 Midinitial: registerMidinitial,
-                ContactNumber: registerContnum,
+                //: registerContnum,
                 //Program: registerProgram
             },
             withCredentials: true,
-            url: "http://localhost:3000/Student-Form"
+            url: "http://localhost:3000/Alumni-Form"
         })
     };
 
@@ -61,13 +61,13 @@ const SAform = () => {
                     <input type='Midi' onChange={e => setRegisterMidinitial(e.target.value)} placeholder=''></input>
                 </div>
                 <div className={styles.spread2}>
-                    <p>Upload Affidavit of Loss Here:</p>
+                    <p>Upload Receipt of ID Here:</p>
                     <form action="">
                         <input type="file" id="uploss" name="fileloss"></input>
                     </form>
                 </div>
                 <div className={styles.spread2}>
-                    <p>Upload Receipt Here:</p>
+                    <p>Upload Receipt of Membership Here:</p>
                     <form action="">
                         <input type="file" id="uprec" name="filerec"></input>
                     </form>
@@ -83,4 +83,4 @@ const SAform = () => {
     );
 };
 
-export default SAform;
+export default Aform;

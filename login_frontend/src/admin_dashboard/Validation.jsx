@@ -130,6 +130,9 @@ const handleSearch = (event) => {
               <strong>Download CSV</strong>
             </button>
             <button onClick={Request}>
+              <strong>Print PDF</strong>
+            </button>
+            <button onClick={Request}>
               <strong>QR Code</strong>
             </button>
           </div>
@@ -138,79 +141,79 @@ const handleSearch = (event) => {
           <table id="myTable" className={styles.dataTable}>
             <thead>
               <tr>
+                <th>ID NUMBER</th>
                 <th>LAST NAME</th>
                 <th>FIRST NAME</th>
-                <th>ID NUMBER</th>
                 <th>COURSE</th>
-                <th>DATE</th>
-                <th>TIME</th>
+                <th>YEAR</th>
+                <th>STATUS</th>
               </tr>
             </thead>
             <tbody>
               {/* Example row */}
               <tr>
-                <td>Smith</td>
-                <td>John</td>
-                <td>123456</td>
-                <td>Computer Science</td>
-                <td>2023-08-20</td>
-                <td>10:00 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Doe</td>
-                <td>Jane</td>
-                <td>789012</td>
-                <td>Electrical Engineering</td>
-                <td>2023-08-21</td>
-                <td>02:30 PM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Johnson</td>
-                <td>Michael</td>
-                <td>345678</td>
-                <td>Business Administration</td>
-                <td>2023-08-22</td>
-                <td>09:15 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Williams</td>
-                <td>Sarah</td>
-                <td>901234</td>
-                <td>Psychology</td>
-                <td>2023-08-23</td>
-                <td>11:45 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Smith</td>
-                <td>John</td>
-                <td>123456</td>
-                <td>Computer Science</td>
-                <td>2023-08-20</td>
-                <td>10:00 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Doe</td>
-                <td>Jane</td>
-                <td>789012</td>
-                <td>Electrical Engineering</td>
-                <td>2023-08-21</td>
-                <td>02:30 PM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Johnson</td>
-                <td>Michael</td>
-                <td>345678</td>
-                <td>Business Administration</td>
-                <td>2023-08-22</td>
-                <td>09:15 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               <tr>
-                <td>Williams</td>
-                <td>Sarah</td>
-                <td>901234</td>
-                <td>Psychology</td>
-                <td>2023-08-23</td>
-                <td>11:45 AM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
               </tr>
               {/* Add more rows as needed */}
             </tbody>

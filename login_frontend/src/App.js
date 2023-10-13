@@ -8,6 +8,8 @@ import Request from './admin_dashboard/Request';
 import Maker from './admin_dashboard/Maker';
 import LPage from './pages/LPage.jsx';
 import SAreq from './pages/SAreq.jsx';
+import Alumform from './pages/Alumform.jsx';
+import Alumreq from './pages/Alumreq.jsx';
 import Freq from './pages/Freq.jsx';
 import Facform from './pages/Facform.jsx';
 import StAlform from './pages/StAlform.jsx';
@@ -24,10 +26,11 @@ function App() {
         <Route path="/ID_MAKER" element={<Maker/>}></Route>
         <Route path="/" element={<LPage/>} />
         <Route path="/student-request-form-note" element={<SAreq/>}/>
-        <Route path="/alumni-request-form-note" element={<SAreq/>}/>
+        <Route path="/alumni-request-form-note" element={<Alumreq/>}/>
         <Route path="/faculty-request-form-note" element={<Freq/>}/>
         <Route path="/Faculty-Form" element={<Facform/>} />
-        <Route path="/Student-Alumni-Form" element={<StAlform/>}/>
+        <Route path="/Student-Form" element={<StAlform/>}/>
+        <Route path="/Alumni-Form" element={<Alumform/>}/>
       </Routes>
     </BrowserRouter>
     </div>
